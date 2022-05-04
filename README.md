@@ -4,5 +4,5 @@ This is a recreation of clasic 2D pong game built way back in 1972 by Atari. Thi
 
 Bellow is gameplay footage: 
 
-![PongGameplay](https://github.com/filipmihaljcic/pong-game-unity/tree/main/images)
+![PongGameplay](https://github.com/filipmihaljcic/pong-game-unity/blob/main/images/PongGameGIF.gif)
 
