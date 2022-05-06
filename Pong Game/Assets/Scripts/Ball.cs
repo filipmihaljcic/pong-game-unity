@@ -19,7 +19,6 @@ namespace Project.Scripts
             AddStartingForce();
         }
 
-        
         public void ResetPosition()
         {
             _rigidbody.position = Vector3.zero;
