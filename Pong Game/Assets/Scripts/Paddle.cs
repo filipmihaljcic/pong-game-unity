@@ -5,6 +5,7 @@ namespace Project.Scripts
     public class Paddle : MonoBehaviour
     {
         protected Rigidbody2D _rb2D;
+        
         public float _speed = 10f;
 
         private void Awake()
