@@ -12,7 +12,9 @@ namespace Project.Scripts
 
             if (_ball != null)
             { 
+                // first contact point of ball 
                 Vector2 _normal = _other.GetContact(0).normal;
+                // adding force in the opposite direction
                 _ball.AddForce(-_normal * _bounceStrength);
             }
         }
