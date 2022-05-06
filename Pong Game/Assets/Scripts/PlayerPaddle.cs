@@ -20,7 +20,8 @@ namespace Project.Scripts
 
         private void FixedUpdate()
         {
-            if (_direction.sqrMagnitude != 0) // if we are moving 
+            // if we are moving our paddle
+            if (_direction.sqrMagnitude != 0) 
                 _rb2D.AddForce(_direction * _speed);
         }
     }
