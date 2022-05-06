@@ -15,8 +15,8 @@ namespace Project.Scripts
 
         private void Start()
         {
-           ResetPosition();
-           AddStartingForce();
+            ResetPosition();
+            AddStartingForce();
         }
 
         
