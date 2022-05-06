@@ -13,7 +13,9 @@ namespace Project.Scripts
 
             if (_ball != null)
             {
+                // construct base event data 
                 BaseEventData _eventData = new BaseEventData(EventSystem.current);
+                // pass event data 
                 _scoreTrigger.Invoke(_eventData);
             }
         }
