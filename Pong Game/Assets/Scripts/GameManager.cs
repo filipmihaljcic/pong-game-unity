@@ -6,17 +6,16 @@ namespace Project.Scripts
     public class GameManager : MonoBehaviour
     {
         public Ball _ball;
+        
+        public Paddle _playerPaddle, _computerPaddle;
        
         public Text _playerScoreText, _computerScoreText;
-
-        public Paddle _playerPaddle, _computerPaddle;
 
         private int _playerScore, _computerScore = 0;
 
         public void PlayerScore()
         {
             _playerScore++;
-
             _playerScoreText.text = _playerScore.ToString();
             ResetRound();
         }
@@ -24,7 +23,6 @@ namespace Project.Scripts
         public void ComputerScore()
         {
             _computerScore++;
-
             _computerScoreText.text = _computerScore.ToString();
             ResetRound();
         }
