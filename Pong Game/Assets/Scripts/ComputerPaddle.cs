@@ -19,7 +19,9 @@ namespace Project.Scripts
                 else if (_ball.transform.position.y < transform.position.y)
                     _rb2D.AddForce(Vector2.down * _speed);
             }
-            // this ensures that computer paddle will always be in the middle 
+            // this ensures that computer paddle will 
+            // always be in the middle after computer 
+            // paddle has hit the ball
             else 
             {
                 // if computer paddle is above middle position 
